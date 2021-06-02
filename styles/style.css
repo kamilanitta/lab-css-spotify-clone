@@ -6,3 +6,230 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    color: #1A1A1A
+}
+
+/* Section: Nav Bar */
+.spotify_logo{
+    width: 20%;
+    height: auto;
+}
+.navbar{
+    display: flex;
+    margin-top: 0rem;
+    padding: 20px ;
+    
+} 
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+.menu_navbar{
+    /* display: flex;
+    justify-content: flex-end; */
+}
+.nav_item{
+    font-family: sans-serif;
+    padding:0 10px;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+}
+
+/* Section: Hero Image */
+
+.hero_image{
+    /* background-image: url("/images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+
+}
+.hero_container{
+    display: flex;
+    flex-direction:column;
+    background-image: url("/images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hero_image h1{
+    font-size: 330%;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+
+}
+
+.hero_image p{
+font-size: 125%;
+font-family:sans-serif;
+font-weight: lighter ;
+/* flex-wrap: wrap; */
+margin: 0;
+padding:1px;
+
+
+}
+
+.hero_text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+/* Section: What`s on Spotify? */
+.features_block{
+    margin: 5% auto;
+}
+.features_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+.features_block_header{
+    margin: 5%;
+}
+.features_block h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0;
+    font-size: 160%;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.option_hr{
+    height: 3px;
+    width: 25%;
+    background-color: #00B172;
+    border-style: none;
+    margin-top: 3px;
+    
+}
+.features_container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.icons_items{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    
+    
+}
+.img_icon{
+    width: 100px;
+    height: auto;
+    /* align-content:baseline ; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+
+}
+.features_container h3{
+    color: #00B172;
+    align-items: flex-start;
+    margin-top: 2px;
+    font-size: 22px;
+    order: 3;
+    flex-grow: 10;
+
+}
+.features_container p{
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 3px;
+    align-items: baseline;
+}
+
+
+/* Section: Bottom */
+
+.container_bottom{
+    background-color: #00B172;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* align-content: center;  */
+    /* flex-flow: nowrap; */
+    margin: 20px;
+}
+
+
+.hr_bottom{
+    height: 3px;
+    width: 90%;
+    background-color: white;
+    border-style: none;
+    margin-top: 0; 
+
+}
+.item_bottom{
+    margin-left: 40px;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    /* order: 0; */
+    
+
+    /* align-items: center;
+    align-content: center;  */
+}
+
+.item_bottom_1{
+    color: white;
+    margin-left: 40px;
+    display: flex;
+    flex-grow: 3;
+    
+}
+.bottom_text.h2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+#spotify-icon-white{
+    width: 30%;
+    height: auto;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-evenly; */
+    
+}
+
+#spotify-app{
+    width: 80%;
+    height: auto;
+}
